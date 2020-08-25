@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- NAVBAR ***************************************** -->
+    <div class="flex justify-between px-3 bg-secondary text-white items-center">
+        <div>
+            <img class="h-8 py-1" src="images/logo-w.svg" alt="">
+        </div>
+        <div class="text-3xl">&equiv;</div>
+    </div>
+
+    <main class="mb-8">
+        <!--  BANNER ***************************************** -->
+        <div class="h-56 md:h-100 md:bg-center bg-no-repeat bg-cover bg-center"
+            style="background-image: url(https://images.unsplash.com/photo-1552566626-52f8b828add9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);">
+        </div>
+        <!-- CARD ******************************************-->
+        <div class="container md:mx-auto md:flex">
+            <div class="mx-2 mt-4 md:w-1/2 md:mx-0 rounded-lg md:flex md:bg-white md:items-center">
+                <div>
+                    <img class="w-full md:w-48 md:h-full rounded-lg md:rounded-r-none"
+                        src="https://images.unsplash.com/photo-1594212699903-ec8a3eca50f5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&h=500"
+                        alt="">
+                </div>
+                <div class="relative -mt-2 bg-white md:bg-transparent rounded-lg shadow-lg mx-1 p-2">
+                    <h2 class="text-xl md:text-lg tracking-light text-gray-900 font-semibold uppercase">Hamburguesa de
+                        res
+                    </h2>
+                    <p class="text-gray-700 leading-snug">Hamburguesa de res con papas gajo</p>
+                    <div class="text-sm font-semibold text-gray-700 mt-2">$100 MXN</div>
+                    <div class="text-yellow-700 text-xs mt-2">&starf;&starf;&starf;&starf;&starf; / 25 reseña</div>
+                </div>
+            </div>
+            <!-- TWO CARD ******************************************* -->
+            <div class="mx-2 mt-4 mb-8 md:mx-0 md:w-1/2 md:flex md:bg-white rounded-lg">
+                <div>
+                    <img class="w-full md:w-48 md:h-full md:ml-2 rounded-lg md:rounded-r-none"
+                        src="https://images.unsplash.com/photo-1594212699903-ec8a3eca50f5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&h=500"
+                        alt="">
+                </div>
+                <div class="relative -mt-2 bg-white md:bg-transparent rounded-lg shadow-lg mx-1 p-2">
+                    <h2 class="text-xl md:text-lg tracking-light text-gray-900 font-semibold uppercase">Hamburguesa de
+                        res
+                    </h2>
+                    <p class="text-gray-700 leading-snug">Hamburguesa de res con papas gajo</p>
+                    <div class="text-sm font-semibold text-gray-700 mt-2">$100 MXN</div>
+                    <div class="text-yellow-700 text-xs mt-2">&starf;&starf;&starf;&starf;&starf; / 25 reseña</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- FORM ******************************************* -->
+        <div class="mx-4">
+            <div>
+                <div> Nombre</div>
+                <input
+                    class="w-full leading-snug text-gray-800 placeholder-secondary py-1 px-4 rounded border border-blue-400 bg-gray-200 hover:bg-white"
+                    type="text" placeholder="Nombre">
+            </div>
+            <div>
+                <div> Email</div>
+                <input
+                    class="w-full leading-snug text-gray-800 placeholder-secondary py-1 px-4 rounded border border-blue-400 bg-gray-200 hover:bg-white"
+                    type="email" placeholder="Email">
+            </div>
+            <div>
+                <div>Comentarios</div>
+                <textarea
+                    class="w-full leading-snug text-gray-800 placeholder-secondary py-1 px-4 rounded border border-blue-400 bg-gray-200 hover:bg-white"
+                    name="" id="" cols="30" rows="10"></textarea>
+            </div>
+        </div>
+    </main>
+
+    <footer class="w-full bg-secondary text-white">
+
+        <div class="md:flex justify-around md:flex-row-reverse">
+            <div class="mt-4 ml-8">
+                <div class="hover:text-primary"><i class="fa fa-facebook">Platzi Food</i></div>
+                <div class="hover:text-primary"><i class="fa fa-twitter">@platzifood</i></div>
+                <div class="hover:text-primary"><i class="fa fa-instagram">@@platzifood</i></div>
+            </div>
+            <ul class="mt-4 mb-4 ml-8">
+                <li>Soporte</li>
+                <li>Acerca de nosotros</li>
+                <li>Aviso de privacidad</li>
+            </ul>
+        </div>
+
+    </footer>
+</body>
+
+</html>
